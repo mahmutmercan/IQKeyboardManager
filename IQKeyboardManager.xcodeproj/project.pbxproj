@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E4BD028B6002CB104296EB0 /* Pods_IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFC867AF63E4F88D2AE2954 /* Pods_IQKeyboardManager.framework */; };
+		A3600B0D23E09B8500429157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3600B0C23E09B8500429157 /* AppDelegate.swift */; };
+		A3600B0F23E09B8500429157 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3600B0E23E09B8500429157 /* SceneDelegate.swift */; };
+		A3600B1123E09B8500429157 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3600B1023E09B8500429157 /* ViewController.swift */; };
+		A3600B1423E09B8500429157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3600B1223E09B8500429157 /* Main.storyboard */; };
+		A3600B1623E09B8700429157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3600B1523E09B8700429157 /* Assets.xcassets */; };
+		A3600B1923E09B8700429157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3600B1723E09B8700429157 /* LaunchScreen.storyboard */; };
+		A3600B2123E09BAC00429157 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3600B2023E09BAC00429157 /* IQKeyboardManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64BC8A6CF7312ECCFC150547 /* Pods-IQKeyboardManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyboardManager.release.xcconfig"; path = "Target Support Files/Pods-IQKeyboardManager/Pods-IQKeyboardManager.release.xcconfig"; sourceTree = "<group>"; };
+		664A0BA065660169A8FFE5E2 /* Pods-IQKeyboardManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyboardManager.debug.xcconfig"; path = "Target Support Files/Pods-IQKeyboardManager/Pods-IQKeyboardManager.debug.xcconfig"; sourceTree = "<group>"; };
+		A3600B0923E09B8500429157 /* IQKeyboardManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQKeyboardManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3600B0C23E09B8500429157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3600B0E23E09B8500429157 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A3600B1023E09B8500429157 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3600B1323E09B8500429157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3600B1523E09B8700429157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3600B1823E09B8700429157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3600B1A23E09B8700429157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3600B2023E09BAC00429157 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		EFFC867AF63E4F88D2AE2954 /* Pods_IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3600B0623E09B8500429157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4BD028B6002CB104296EB0 /* Pods_IQKeyboardManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		304A5C51DDC1100D96E843EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				664A0BA065660169A8FFE5E2 /* Pods-IQKeyboardManager.debug.xcconfig */,
+				64BC8A6CF7312ECCFC150547 /* Pods-IQKeyboardManager.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		52E5F93CAD69B6619ED4BCAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFFC867AF63E4F88D2AE2954 /* Pods_IQKeyboardManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3600B0023E09B8500429157 = {
+			isa = PBXGroup;
+			children = (
+				A3600B0B23E09B8500429157 /* IQKeyboardManager */,
+				A3600B0A23E09B8500429157 /* Products */,
+				304A5C51DDC1100D96E843EE /* Pods */,
+				52E5F93CAD69B6619ED4BCAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3600B0A23E09B8500429157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3600B0923E09B8500429157 /* IQKeyboardManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3600B0B23E09B8500429157 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				A3600B0C23E09B8500429157 /* AppDelegate.swift */,
+				A3600B0E23E09B8500429157 /* SceneDelegate.swift */,
+				A3600B1023E09B8500429157 /* ViewController.swift */,
+				A3600B1223E09B8500429157 /* Main.storyboard */,
+				A3600B1523E09B8700429157 /* Assets.xcassets */,
+				A3600B1723E09B8700429157 /* LaunchScreen.storyboard */,
+				A3600B1A23E09B8700429157 /* Info.plist */,
+				A3600B2023E09BAC00429157 /* IQKeyboardManager.swift */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3600B0823E09B8500429157 /* IQKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3600B1D23E09B8700429157 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */;
+			buildPhases = (
+				6B5757506897764A031730E0 /* [CP] Check Pods Manifest.lock */,
+				A3600B0523E09B8500429157 /* Sources */,
+				A3600B0623E09B8500429157 /* Frameworks */,
+				A3600B0723E09B8500429157 /* Resources */,
+				DB7B458F84EE39352C3E636E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManager;
+			productName = IQKeyboardManager;
+			productReference = A3600B0923E09B8500429157 /* IQKeyboardManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3600B0123E09B8500429157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Mahmut Mercan";
+				TargetAttributes = {
+					A3600B0823E09B8500429157 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = A3600B0423E09B8500429157 /* Build configuration list for PBXProject "IQKeyboardManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3600B0023E09B8500429157;
+			productRefGroup = A3600B0A23E09B8500429157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3600B0823E09B8500429157 /* IQKeyboardManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3600B0723E09B8500429157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3600B1923E09B8700429157 /* LaunchScreen.storyboard in Resources */,
+				A3600B1623E09B8700429157 /* Assets.xcassets in Resources */,
+				A3600B1423E09B8500429157 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B5757506897764A031730E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IQKeyboardManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB7B458F84EE39352C3E636E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IQKeyboardManager/Pods-IQKeyboardManager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IQKeyboardManager/Pods-IQKeyboardManager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IQKeyboardManager/Pods-IQKeyboardManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3600B0523E09B8500429157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3600B2123E09BAC00429157 /* IQKeyboardManager.swift in Sources */,
+				A3600B1123E09B8500429157 /* ViewController.swift in Sources */,
+				A3600B0D23E09B8500429157 /* AppDelegate.swift in Sources */,
+				A3600B0F23E09B8500429157 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3600B1223E09B8500429157 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3600B1323E09B8500429157 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3600B1723E09B8700429157 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3600B1823E09B8700429157 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3600B1B23E09B8700429157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3600B1C23E09B8700429157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3600B1E23E09B8700429157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664A0BA065660169A8FFE5E2 /* Pods-IQKeyboardManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B6AFN73DR;
+				INFOPLIST_FILE = IQKeyboardManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahmutmercan.IQKeyboardManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3600B1F23E09B8700429157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64BC8A6CF7312ECCFC150547 /* Pods-IQKeyboardManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B6AFN73DR;
+				INFOPLIST_FILE = IQKeyboardManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahmutmercan.IQKeyboardManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3600B0423E09B8500429157 /* Build configuration list for PBXProject "IQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3600B1B23E09B8700429157 /* Debug */,
+				A3600B1C23E09B8700429157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3600B1D23E09B8700429157 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3600B1E23E09B8700429157 /* Debug */,
+				A3600B1F23E09B8700429157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3600B0123E09B8500429157 /* Project object */;
+}
